@@ -1,0 +1,16 @@
+
+machine_name    : "Світло_світлофору";
+machine_author  : "Михайло Лесь / Mykhaylo Les / @miles91";
+machine_comment : "Translation of the 4-state traffic light to Ukrainian";
+machine_license : MIT;
+fsl_version     : 1.0.0;
+
+
+
+
+
+Вимкнено 'Увімкнути' -> Червоний;
+
+Червоний 'Перейти' => Зелений 'Перейти' => Жовтий 'Перейти' => Червоний;
+
+[Зелений Жовтий Червоний] 'Вимкнути' ~> Вимкнено;
